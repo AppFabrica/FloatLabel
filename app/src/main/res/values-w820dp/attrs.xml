@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditTextHelpOptions">
+        <attr name="text" format="string"/>
+        <attr name="hint" format="string"/>
+        <attr name="error" format="string"/>
+        <attr name="android:inputType" />
+        <attr name="android:hint" />
+        <attr name="android:editable" />
+    </declare-styleable>
+
+</resources>

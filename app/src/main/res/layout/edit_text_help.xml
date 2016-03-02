@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layoutEditTextHelp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_ape"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_layout_name"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/helpEditText"
+                android:layout_weight="1"
+                android:padding="3dp"
+                android:background="@android:color/transparent" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+    </LinearLayout>
+</merge>
